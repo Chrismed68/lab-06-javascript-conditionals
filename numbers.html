@@ -1,0 +1,33 @@
+<html>
+<head>
+<script>
+
+var number = prompt ("Give me a number");
+
+var Number;
+
+var ones;
+
+var tens;
+
+var hundreds;
+
+var thousands;
+
+
+Number=parseInt(number)
+
+	    ones=Math.floor(Number%10),
+
+            tens = Math.floor(Number/10 % 10),
+
+            hundreds = Math.floor(Number/100 % 10),
+
+            thousands = Math.floor(Number/1000);
+
+alert(thousands + " Thousands" + "\n"+ hundreds + " Hundreds" + "\n" + tens + " Tens" + "\n" + ones + " Ones");
+
+</script>
+</head>
+</html>
+
